@@ -1,0 +1,186 @@
+body{
+    margin:auto;
+    background-color:rgb(243, 240, 237);
+    overflow-x:hidden;
+}
+/*header section*/
+a{
+    text-decoration:none;
+}
+
+header {
+    height:80px;
+    width:100%;
+    background-color:brown;
+    color:white;
+}
+#a1 {
+    margin-left:10px;
+    float:left;
+}
+.l1{
+    height:50px;
+    width:10%;
+    float:right;
+    margin-right:20px;
+    margin-top:30px;
+    
+}
+.l2{
+    background-color:rgb(172, 209, 224);
+    border:none;
+    border-radius:20%;
+    color:white;
+}
+.l3{
+    background-color:rgb(158, 232, 209);
+    border:none;
+    border-radius:20%;
+    color:white;
+}
+
+/*--listing section*/
+
+#listing {
+    
+    width:90%;
+    margin-left:5%;
+    margin-top:5%;
+    display:inline-block;
+    
+}
+
+.filter{
+    height: 450px;
+    width: 15%;
+    border:3px solid rgb(210, 208, 208);
+    float:left;
+    margin-left:10%;
+    text-align:center;
+    font-size: 20px;
+}
+#list {
+    font-size:15px;
+    text-align:left;
+    font-weight:bold;
+}
+
+#content { 
+    width: 65%;
+    display:inline-block;
+    margin-left:5%; 
+    margin-top:-5px;
+}
+
+#c1{
+    height:300px;
+    width:100%;
+    
+    box-shadow: 0px 7px 15px 5px rgb(163, 102, 102);
+}
+
+#c1 img {
+    width:300px;
+    height:250px;
+    margin:20px;
+    border-radius:20%;
+}
+
+.cc1{
+    height:300px;
+    float:left;
+    margin-top:-10px;
+    
+}
+#cc2{
+    height:300px;
+    width:380px;
+    float:left;
+    margin-left:10px;
+    margin-top:-10px;
+   
+}
+.ccc{
+    margin-top:20px;
+}
+
+.ccc span{
+    color: rgb(75, 173, 212);
+    font-weight: bold;
+    font-size:25px;
+    line-height:50px;
+    margin-left:10px;
+   
+    
+}
+
+.p{
+    font-family:Arial Narrow Bold;
+    font-size:14px;
+    margin-left:10px;
+    font-weight:bold;
+}
+
+.bs1 {
+    border:none;
+    background-color:rgb(107, 164, 211);
+    margin-left:10px;
+    border-radius:20%;
+    
+}
+
+.bs2  {
+    border:none;
+    background-color:orange;
+    margin-left:10px;
+    border-radius:20%;
+    
+}
+
+.bs3 {
+    border:none;
+    background-color:yellow;
+    margin-top:20px;
+    margin-left:10px;
+    border-radius:20%;
+}
+
+.bs4  {
+    border:none;
+    background-color:skyblue;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius:20%;
+}
+
+
+/* footer section*/
+
+footer {
+    
+    color:white;
+    background-color:brown;
+    text-align:center; 
+    width:100%;
+
+}
+#foot {
+    height:75px;
+    width:100%;
+    margin-left:5%;
+    
+}
+.foot1{
+    height:75px;
+    width:30%;
+    float:left;
+    border-right:2px solid white;
+    
+}
+.border {
+    border:none;
+}
+.social img {
+    height:50px;
+    width:50px;
+}
